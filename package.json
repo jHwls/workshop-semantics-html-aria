@@ -42,16 +42,20 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@emotion/babel-plugin": "^11.3.0",
+    "@parcel/config-default": "^2.8.3",
     "@parcel/resolver-glob": "^2.0.1",
+    "@parcel/transformer-js": "^2.8.3",
     "@parcel/transformer-raw": "^2.5.0",
+    "@parcel/transformer-react-refresh-wrap": "^2.8.3",
     "@parcel/transformer-sass": "^2.0.1",
     "@parcel/transformer-svg-react": "^2.0.1",
     "babel-loader": "^8.2.3",
     "buffer": "^6.0.3",
     "copy-webpack-plugin": "6",
-    "parcel": "^2.0.1",
-    "posthtml-include": "^1.7.2"
     "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.2",
+    "process": "^0.11.10",
+    "prop-types": "^15.8.1"
   },
   "alias": {
     "data": "./data",
